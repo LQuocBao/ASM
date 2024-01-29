@@ -1,0 +1,227 @@
+/* CSS chính + Layout chính */
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    min-height: 100px;
+    background-color: black;
+    font-family: Arial;
+}
+
+header img{
+    position: absolute;
+    width: 120px;
+    height: 80px;
+}
+
+.boxlogo{
+    width: 40%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.boxmenu{
+    position: relative;
+    width: 60%;
+    height: auto;
+    float: right;
+    color: gray;
+    font-weight: bolder;
+}
+
+.boxmenu ul{
+    list-style: none;
+}
+
+.boxmenu ul>li{
+    float: left;
+    line-height: 50px;
+    position: relative;
+}
+
+.boxmenu ul>li a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: gray;
+    padding-right: 10px;
+}
+
+.boxmenu .boxmenu-con{
+    display: none;
+}
+
+.boxmenu .boxmenu-con a{
+    width: 170px;
+}
+
+.boxmenu .boxmenu-con a:hover{
+    font-weight: bolder;
+    width: 170px;
+}
+
+.boxmenu li:hover >.boxmenu-con{
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    width: 170px;
+    height: 700px;
+}
+
+.boxmenu .boxmenu-con>li{
+    display: inline-block;
+    right: 15px;
+    padding: 0;
+    margin: -9px;
+}
+
+.boxmenu i{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+nav{
+    width: 100%;
+    min-height: 50px;
+}
+
+nav img{
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    min-width: 1000px;
+    min-height: 2000px;
+    text-align: center;
+}
+
+.wapper{
+    padding-bottom: 30px;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: normal;
+    color: gray;
+    font-size: 150%;
+}
+
+.row{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.box3{
+    width: calc(calc(1000px - 60px)/3);
+    float: left;
+}
+
+
+.mg20{
+    margin-right: 20px;
+}
+
+.sanpham{
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 15px;
+    width: 300px;
+    font-weight: bolder;
+}
+
+.sanpham img{
+    max-width: 105%;
+}
+
+.sanpham .tensanpham a{
+    color: #334862;
+    text-decoration: none;
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.sanpham .tensanpham del{
+    color: black;
+}
+
+.sanpham .tensanpham span{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+footer{
+    width: 100%;
+    min-height: 150px;
+    background-color: black;
+    position: absolute;
+}
+
+.description{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+/* CSS bổ sung A - Class */
+
+.product{
+    width: 1000px;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.name{
+    /* padding-top: 150px; */
+    padding-left: 400px;
+    float: left;
+    color: gray;
+    font-weight: bolder;
+}
+
+.vmenu{
+    float: left;
+    margin: 0 auto;
+    padding-top: 200px;
+    list-style: none;
+    text-align: left;
+}
+
+.vmenu li{
+    padding: 5px 0;
+}
+
+.vmenu a{
+    color: black;
+    text-decoration: none;
+}
+
+.vmenu a:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+.namepro{
+    padding-top: 16px;
+    text-align: left;
+    color: gray;
+}
